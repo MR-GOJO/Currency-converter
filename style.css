@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7e1ef3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+  font-weight: 800;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1rem 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 6px 6px 4px 0.5px #33333381;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(177, 176, 176);
+  padding: 0.3rem;
+  border-radius: 7px;
+}
+
+select {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  width: 30px;
+}
+
+input {
+  width: 18.5rem;
+  padding-left: 0.4rem;
+  height: 2.3rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgb(177, 176, 176);
+  border-radius: 5px;
+}
+
+button {
+  background-color: #7e1ef3;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.msg {
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+#icon {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
